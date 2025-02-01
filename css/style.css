@@ -10,6 +10,7 @@ h1{
 	padding: 15px;
 	text-align: center;
 }
+
 h2 {
 	font-size: 30px;
 	color: #0D0D0D;
@@ -19,11 +20,7 @@ p {
 	font-size: 24px;
 	padding:10px 0px 0px 10px;
 }
-/* main {
-	width: 80%;
-	margin: 20px auto;
-	padding: 2px;
-} */
+
 img {
 	width: 250px;
 	display: block;
@@ -36,12 +33,14 @@ div {
 	padding: 20px;
 	border: 3px solid #FFFFFF;
 }
-.introduction{
+
+.introduction {
 	border-radius: 15px;
 	margin-top: 15px;
 	line-height: 2;
 }
-.red{
+
+.red {
 	background-color: #FF0000;
 	text-align: right;
 	margin-left: 50px;
@@ -50,7 +49,8 @@ div {
 	border-bottom: 2px solid;
     border-left: 5px solid;
 }
-.blue{
+
+.blue {
 	background-color: #0000FF;
 	text-align: left;
 	margin-right: 50px;
@@ -62,17 +62,21 @@ div {
 .blue>h2,.blue>p {
 	color: #C4C4C4
 }
-.yellow{
+
+.yellow {
 	background-color: #FFFF00;
 	text-align: right;
 	margin-left: 50px;
 	border-top: 0px;
     border-right: 0px;
-	border-left: 5px solid;
-	border-bottom: 2px solid;
+	border-left: 5px solid #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+}
+.yellow>p {
 	color: #707070
 }
-.green{
+
+.green {
 	background-color: #008500;
 	text-align: left;
 	margin-right: 50px;
@@ -86,6 +90,7 @@ footer {
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
 	border: 5px #FFFFFF solid;
 }
+
 footer>p {
 	font-size: 20px;
 	text-align: right;
